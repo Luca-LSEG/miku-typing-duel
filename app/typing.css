@@ -7,3 +7,13 @@
 .nextLines p { margin: 7px 0; color: #aaa; font-size: 18px; }
 .typeInput { width: 100%; height: 72px; background: #fff; color: var(--ink); border: 2px solid var(--ink); border-radius: 12px; padding: 0 20px; font: 22px "Noto Sans KR", Arial, sans-serif; outline: 0; }
 .typeInput:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(20,166,148,.12); }
+.songPick { margin: 30px auto; padding: 22px; max-width: 560px; border: 1px solid var(--line); border-radius: 12px; text-align: left; }
+.songPick > span { display: block; margin-bottom: 12px; font-size: 16px; font-weight: 700; }
+.songPick > div { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.songPick button { padding: 13px; border: 1px solid var(--line); border-radius: 8px; background: #fff; font-size: 16px; cursor: pointer; }
+.songPick button.selected { border-color: var(--accent); background: #f0fffb; color: #087c6e; font-weight: 700; }
+.songPick button:disabled { cursor: default; }
+.songPick small { display: block; margin-top: 10px; color: var(--muted); font-size: 14px; }
+.finalSpeeds { display: flex; gap: 12px; margin-top: 26px; }
+.finalSpeeds span { min-width: 190px; padding: 16px 22px; border: 1px solid var(--line); border-radius: 10px; font-size: 16px; }
+.finalSpeeds b { display: block; margin-top: 8px; font-size: 24px; }
